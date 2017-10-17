@@ -1,0 +1,257 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+ * 01. Overwrite Style Setting
+ * 02. Layout Style Setting
+ * 03. #header Style Setting
+ * 04. #footer Style Setting
+ * 05. #pageTop Style Setting
+ * 06. Share Style Setting
+ */
+
+/*
+ * Overwrite
+ */
+
+body{
+	background-color:#f4f4f4;
+	color:#666;
+	font-size:13px;
+	line-height:1.6;
+}
+
+a{
+	color:#666;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+hr{
+	display:none;
+}
+
+
+/*
+ * Layout
+ */
+
+#wrapper{
+	width:100%;
+	height:100%;
+}
+
+#containerTop{
+	width:100%;
+	height:495px;
+	margin-bottom:52px;
+}
+
+#headerTop{
+	background-color:#000;
+	width:100%;
+	height:59px;
+	border-bottom:1px solid #fff;
+}
+
+#headerTop .inner{
+	width:960px;
+	height:59px;
+	margin:0 auto;
+	position:relative;
+}
+
+#headerBottom{
+	background:url(../img/bgHeader_mainImage.png) repeat-x left top;
+	width:100%;
+	height:435px;
+}
+
+#containerBottom{
+	background:url(../img/bgFooter_colorful.gif) repeat-x left top #000;
+	padding-top:37px;
+}
+
+#containerBottom #footer{
+	width:960px;
+	margin:0 auto;
+	position:relative;
+}
+
+
+/*
+ * #header Style Setting
+ */
+
+#headerTop .inner #siteID{
+	position:absolute;
+	top:19px;
+	left:0;
+}
+
+#headerTop .inner #otherArea{
+	width:220px;
+	position:absolute;
+	top:16px;
+	right:0;
+}
+
+#headerTop .inner #otherArea form{
+	float:left;
+	position:relative;
+}
+
+#headerTop .inner #otherArea form input#s{
+	background:url(../img/bgHeader_search.gif) repeat-x left top #fff;
+	width:163px;
+	height:23px;
+	border:1px solid #dcdcdc;
+}
+
+#headerTop .inner #otherArea form input#searchBtn{
+	position:absolute;
+	top:1px;
+	right:1px;
+}
+
+#headerTop .inner #otherArea ul{
+	float:right;
+	padding-top:2px;
+}
+
+#headerTop .inner #otherArea ul li{
+	float:left;
+	margin-left:6px;
+}
+
+#headerBottom p{
+	width:960px;
+	margin:0 auto;
+}
+
+#headerBottom #navWrap{
+	background:url(../img/bgHeader_mainNav.gif) repeat-x left bottom;
+	width:100%;
+	padding-bottom:5px;
+}
+
+#headerBottom #navWrap ul#mainNav{
+	width:960px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+#headerBottom #navWrap ul#mainNav li{
+	float:left;
+	height:60px;
+	overflow:hidden;
+}
+
+
+/*
+ * #footer Style Setting
+ */
+
+#containerBottom #footer .title{
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#containerBottom #footer .title #footerSiteID{
+	margin-bottom:15px;
+}
+
+#containerBottom #footer .title #companyAddress{
+	margin-bottom:10px;
+	font-size:0.833em;
+}
+
+#containerBottom ul#siteMap{
+	margin-left:240px;
+	padding-bottom:45px;
+	overflow:hidden;
+	color:#fff;
+}
+
+#containerBottom ul#siteMap li{
+	float:left;
+	min-height:132px;
+	padding-left:15px;
+	border-left:1px solid #333;
+}
+
+#containerBottom ul#siteMap li.navHome{ width:60px; }
+#containerBottom ul#siteMap li.navTopics{ width:101px; }
+#containerBottom ul#siteMap li.navService{ width:159px; }
+#containerBottom ul#siteMap li.navWorks{ width:82px; }
+#containerBottom ul#siteMap li.navCompany{ width:100px; }
+#containerBottom ul#siteMap li.navContact{ width:112px; }
+
+#containerBottom ul#siteMap li dl dt{
+	margin-bottom:15px;
+	font-size:1.08em;
+	font-weight:bold;
+}
+
+#containerBottom ul#siteMap li dl dd{
+	font-size:0.85em;
+}
+
+#containerBottom ul#siteMap li dl dd ul li{
+	float:none;
+	width:auto;
+	min-height:0;
+	padding:0;
+	border:none;
+}
+
+#containerBottom ul#siteMap li dl dd ul li a{
+	color:#fff;
+}
+
+#containerBottom #copyright{
+	background-color:#313131;
+	width:100%;
+	height:25px;
+}
+
+#containerBottom #copyright address{
+	width:960px;
+	margin:0 auto;
+	padding-top:9px;
+}
+
+
+/*
+ * #pageTop Style Setting
+ */
+
+#pageTop{
+	width:960px;
+	margin:0 auto 38px;
+	text-align:right;
+}
+
+
+/*
+ * Share Style Setting
+ */
+
+.titleBox{
+	width:161px;
+	position:absolute;
+	top:53px;
+	left:38px;
+}
+
+.titleBox h2{
+	width:155px;
+	padding-bottom:27px;
+	margin:0 0 13px 3px;
+	border-bottom:3px solid #6cc;
+}
+

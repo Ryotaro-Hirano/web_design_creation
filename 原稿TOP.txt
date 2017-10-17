@@ -1,0 +1,172 @@
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+映像制作会社サイト（TOP）マークアップ用原稿
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+■タイトル
+DHW CREATION
+
+■ロゴ画像挿入
+imgHeader_siteID.gif
+alt：DHW CREATION
+
+■検索ボタン
+btnHeader_search.gif
+alt：検索ボタン
+
+■Facebookアイコン
+icoHeader_facebook.gif
+alt：Facebook
+
+■Twitterアイコン
+icoHeader_twitter.gif
+alt：Twitter
+
+■メインビジュアル
+imgHeader_mainImage.jpg
+alt：idea for future 新しいアイデアによって新しい価値を作り出す、映像・音響のトータルソリューションカンパニー。
+
+■ナビ項目
+HOME ホーム
+
+TOPICS 新着情報
+
+SERVICE サービス
+
+WORKS 実績
+
+COMPANY 会社情報
+
+CONTACT お問い合わせ
+
+■ナビ画像6点挿入
+btnHeader_mainNavHome_on.jpg
+alt：HOME ホーム
+
+btnHeader_mainNavTopics.jpg
+alt：TOPICS 新着情報
+
+btnHeader_mainNavService.jpg
+alt：SERVICE サービス
+
+btnHeader_mainNavWorks.jpg
+alt：WORKS 実績
+
+btnHeader_mainNavCompany.jpg
+alt：COMPANY 会社情報
+
+btnHeader_mainNavContact.jpg
+alt：CONTACT お問い合わせ
+
+■新着実績／実績一覧ボタン
+ttlContent_newWorks.png
+alt：NEW WORKS 新着実績
+
+btnContent_newWorksList.jpg
+alt：実績一覧へ
+
+■新着実績３作品
+imgContent_newWorks01.jpg
+alt：なし
+作品タイトル：「オンリーワンの楽園へ」
+紹介文：不動産業者さまのイベント映像。新生活イメージを映画の予告編風に表現。
+
+imgContent_newWorks02.jpg
+alt：なし
+作品タイトル：「音に包まれる。」
+紹介文：新型ヘッドフォンのTVCM。製品特徴をゆるやかな映像で表現しました。
+
+imgContent_newWorks03.jpg
+alt：なし
+作品タイトル：「Peace ＆ War」
+紹介文：T.0.Jの新曲PV。楽曲の世界観をカラフルな色彩で映像化しました。
+
+■新着情報／新着情報一覧ボタン
+ttlContent_topics.png
+alt：TOPICS 新着情報
+
+btnContent_topicsList.jpg
+alt：新着情報一覧へ
+
+■新着情報５件
+2014.11.22
+
+当社制作のイベント映像が、大型イベントの出展ブースで公開されました。
+
+2014.09.24
+
+撮影スタジオ、編集室が新設されました。
+
+2014.07.11
+
+当社制作の映像作品がニュースサイトで紹介されました。
+
+2014.04.08
+
+GWの営業に関しまして、お知らせいたします。
+
+2014.02.15
+
+当社のWebサイトをリニューアル公開しました。
+
+■ページトップ画像
+btnContent_pageTop.gif
+alt：ページトップへ
+
+■フッター会社ロゴ画像挿入
+imgFooter_siteID.png
+alt：なし
+
+■テキスト挿入（住所）
+〒101-0062
+東京都千代田区神田駿河台12丁目13番
+
+■電話番号・営業時間画像挿入
+imgFooter_contact.png
+alt：なし
+
+■テキスト挿入（サイトマップ）
+---
+HOME
+
+ホーム
+
+---
+TOPICS
+
+新着情報一覧
+
+---
+SERVICE
+
+TV/CM制作
+PV制作
+Web動画＆コンテンツ制作
+DVD制作
+音楽制作
+
+---
+WORKS
+
+2014
+2013
+2012
+2011
+2010
+
+---
+COMPANY
+
+挨拶
+事業内容
+会社概要
+沿革
+
+---
+CONTACT
+
+お問い合わせフォーム
+プライバシーポリシー
+
+■コピーライト画像挿入
+imgFooter_copyright.gif
+alt：Copyright DHW CREATION. All Rights Reserved.
+
