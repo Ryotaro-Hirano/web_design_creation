@@ -1,0 +1,65 @@
+@@charset "UTF-8";
+/* css Document */
+
+
+/*下のコメントはcssでどこまでが何のcssなのか明記している目次のような役割です。*/
+/*
+ * 01. Overwrite Style Setting
+ * 02. Layout Style Setting
+ */
+
+/*
+ * Overwrite
+ */
+
+body {
+  background-color: #f4f4f4;
+  color: #666;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  display: none;
+}
+
+/*
+ * Layout
+ */
+
+#wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+#containerTop {
+  width: 100%;
+}
+
+#headerTop {
+  background-color: #000;
+  width: 100%;
+  height: 59px;
+  border-bottom: 1px solid #fff;
+}
+
+#headerTop .inner {
+  width: 960px;
+  height: 59px;
+  margin-right: 0 auto;
+  position: relative;
+}
+
+#headerBottom {
+  background: url(../img/bgHeader_mainImage.png) repeat-x left top;
+  width: 100%;
+}
