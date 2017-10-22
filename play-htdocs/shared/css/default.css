@@ -7,6 +7,7 @@
  * 01. Overwrite Style Setting
  * 02. Layout Style Setting
  * 03. #header Style Setting
+ * 04. #footer Style Setting
  */
 
 /*
@@ -68,6 +69,16 @@ hr {
   height: 435px;
 }
 
+#containerBottom {
+  background: url(../img/bgFooter_colorful.gif) repeat-x left top #000;
+  padding-top: 37px;
+}
+
+#containerBottom #footer {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
 /*
  * 03. #header Style Setting
  */
@@ -134,4 +145,69 @@ hr {
   float: left;
   height: 60px;
   overflow: hidden;
+}
+
+/*
+ * 04. #footer Style Setting
+ */
+
+#containerBottom #footer .title {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#containerBottom #footer .title #footerSiteID {
+  margin-bottom: 15px;
+}
+
+#containerBottom #footer .title #companyAddress {
+  margin-bottom: 10px;
+  font-size: 0.833em;
+}
+
+#containerBottom ul#siteMap {
+  margin-left: 240px;
+  padding-bottom: 45px;
+  overflow: hidden;
+  color: #fff;
+}
+
+#containerBottom ul#siteMap li {
+  float: left;
+  min-height: 132px;
+  padding-left: 15px;
+  border-left: 1px solid #333;
+}
+
+#containerBottom ul#siteMap li .navHome {
+  width: 60px;
+}
+
+#containerBottom ul#siteMap li .navTopics {
+  width: 101px;
+}
+
+#containerBottom ul#siteMap li .navService {
+  width: 159px;
+}
+
+#containerBottom ul#siteMap li .navWorks {
+  width: 82px;
+}
+
+#containerBottom ul#siteMap li .navCompany {
+  width: 100px;
+}
+
+#containerBottom ul#siteMap li .navContact {
+  width: 112px;
+}
+
+#containerBottom ul#siteMap li dl dd ul li {
+  float: none;
+  width: auto;
+  min-height: 0;
+  padding: 0;
+  border: none;
 }
