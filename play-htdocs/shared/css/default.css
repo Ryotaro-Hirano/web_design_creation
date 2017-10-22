@@ -44,6 +44,8 @@ hr {
 
 #containerTop {
   width: 100%;
+  height: 495px;
+  margin-bottom: 52px;
 }
 
 #headerTop {
@@ -63,6 +65,7 @@ hr {
 #headerBottom {
   background: url(../img/bgHeader_mainImage.png) repeat-x left top;
   width: 100%;
+  height: 435px;
 }
 
 /*
@@ -113,4 +116,22 @@ hr {
 #headerBottom p {
   width: 960px;
   margin: 0 auto;
+}
+
+#headerBottom #navWrap {
+  background: url(../img/bgHeader_mainNav.gif) repeat-x left bottom;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+#headerBottom #navWrap ul#mainNav {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#headerBottom #navWrap ul#mainNav li {
+  float: left;
+  height: 60px;
+  overflow: hidden;
 }
