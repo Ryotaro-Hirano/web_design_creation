@@ -8,6 +8,8 @@
  * 02. Layout Style Setting
  * 03. #header Style Setting
  * 04. #footer Style Setting
+ * 05. #pageTop Style Setting
+ * 06. #Share Style Setting
  */
 
 /*
@@ -204,10 +206,65 @@ hr {
   width: 112px;
 }
 
+#containerBottom ul#siteMap li dl dt {
+  margin-bottom: 15px;
+  font-size: 1.08em;
+  font-weight: bold;
+}
+
+#containerBottom ul#siteMap li dl dd {
+  font-size: 0.85em;
+}
+
 #containerBottom ul#siteMap li dl dd ul li {
   float: none;
   width: auto;
   min-height: 0;
   padding: 0;
   border: none;
+}
+
+#containerBottom ul#siteMap li dl dd ul li a {
+  color: #fff;
+}
+
+#containerBottom #copyright {
+  background-color: #313131;
+  width: 100%;
+  height: 25px;
+}
+
+#containerBottom #copyright address {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 9px;
+}
+
+
+
+/*
+ * 05. #pageTop Style Setting
+ */
+
+#pageTop {
+  width: 960px;
+  margin: 0 auto 38px;
+  text-align: right;
+}
+
+/*
+ * 06. #Share Style Setting
+ */
+.titleBox {
+  width: 161px;
+  position: absolute;
+  top: 53px;
+  left: 38px;
+}
+
+.titleBox h2 {
+  width: 155px;
+  padding-bottom: 27px;
+  margin: 0 0 13px 3px;
+  border-bottom: 3px; solid #6cc;
 }
