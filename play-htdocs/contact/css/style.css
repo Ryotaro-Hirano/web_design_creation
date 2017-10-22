@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* css Document */
+
+
+/*下のコメントはcssでどこまでが何のcssなのか明記している目次のような役割です。*/
+/*
+ * 01. #Overwrite Style Setting
+ * 02. #contactArea Style Setting
+ * 03.
+ * 04.
+ * 05.
+ */
+
+/*
+ * 01. #Overwrite Style Setting
+ */
+ #containerTop {
+   height: 125px;
+ }
+
+ #headerBottom {
+   height: 65px;
+ }
+
+/*
+ * 02. #contactArea Style Setting
+ */
+#contactArea {
+  background: url(../img/bgContent_contact.png) no-repeat left top;
+  width: 900px;
+  height: 1426px;
+  margin: 0 auto 37px;
+  padding: 45px 38px;
+  position: relative;
+}
+
+#contactArea .titleBox {
+  position: absolute;
+  top: 50px;
+  left: 38px;
+}
+
+#contactArea .titleBox ul {
+  padding-left: 3px;
+}
+
+#contactArea .titleBox ul  li a {
+  background: url(../../shared/img/icoShared_arrow.gif) no-repeat left center;
+  padding-left: 12px;
+  color: #6cc;
+}
+
+#contactArea .cntBox {
+  margin-left: 215px;
+}
+
+#contactArea .cntBox p#lead {
+  margin-bottom: 55px;
+  font-size: 1.15em;
+  color: #333;
+}
+
+#contactArea .cntBox  h3{
+  background: url(../img/bgContent_title.gif) repeat-x left bottom;
+  margin-bottom: 35px;
+  padding: 17px 0 17px 23px;
+  font-size: 1.85em;
+  line-height: 1;
+  color: #000;
+  border: 1px solid #f2f2f2;
+}
+
+#contactArea .cntBox p#flow {
+  margin-bottom: 30px;
+}
+
+#contactArea .cntBox table {
+  width: 100%;
+  margin-bottom: 22px;
+}
+
+#contactArea .cntBox table tr {
+  background: url(../img/bgContent_form.gif) repeat-x left bottom;
+}
+
+#contactArea .cntBox table th {
+  width: 204px;
+  padding: 22px 0 29px 30px;
+  border: 1px solid #f2f2f2;
+  border-right: none;
+}
+
+#contactArea .cntBox table .attention {
+  display: block;
+  font-size: 0.85em;
+  line-height: 1;
+  color: #f60;
+}
+
+#contactArea .cntBox table td {
+  padding: 15px 29px 15px 0;
+  border: 1px solid #f2f2f2;
+  border-left: none;
+  vertical-align: top;
+}
+
+#contactArea .cntBox table td input,
+#contactArea .cntBox table td input textarea {
+  background-color: #effafa;
+  width: 420px;
+  padding-left: 10px;
+  border: 1px solid #d1f0f0;
+}
+
+#contactArea .cntBox table td input {
+  height: 30px;
+  color: #666;
+  line-height: 30px;
+}
+
+#contactArea .cntBox table td select {
+  margin-top: 8px;
+}
+
+#contactArea .cntBox table td textarea {
+  height: 180px;
+  color: #666;
+  padding-top: 10px;
+  resize: none;
+}
+
+#contactArea .cntBox table td p.attention {
+  padding: 10px 0 0 5px;
+}
+
+#contactArea .cntBox #btnConfirm {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#contactArea .cntBox #explanation {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  text-align: center;
+}
+/*
+ * 02. #contactArea Style Setting
+ */
