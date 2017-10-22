@@ -6,6 +6,7 @@
 /*
  * 01. Overwrite Style Setting
  * 02. Layout Style Setting
+ * 03. #header Style Setting
  */
 
 /*
@@ -62,4 +63,54 @@ hr {
 #headerBottom {
   background: url(../img/bgHeader_mainImage.png) repeat-x left top;
   width: 100%;
+}
+
+/*
+ * 03. #header Style Setting
+ */
+
+ #headerTop .inner #siteID {
+   position: absolute;
+   top: 19px;
+   left: 0;
+ }
+
+ #headerTop .inner #othertArea {
+   width: 220px;
+   position: absolute;
+   top: 16px;
+   right: 0;
+ }
+
+ #headerTop .inner #othertArea form {
+   float: left;
+   position: relative;
+ }
+
+ #headerTop .inner #othertArea form input#s {
+   background: url(../img/bgHeader_search.gif) repeat-x left top #fff;
+   width: 163px;
+   height: 23px;
+   border: 1px solid #dcdcdc;
+ }
+
+#headerTop .inner #othertArea form input#searchBtn {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+
+#headerTop .inner #othertArea ul {
+  float: right;
+  padding-top: 2px;
+}
+
+#headerTop .inner #othertArea ul li {
+  float: left;
+  margin-left: 6px;
+}
+
+#headerBottom p {
+  width: 960px;
+  margin: 0 auto;
 }
